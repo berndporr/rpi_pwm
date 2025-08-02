@@ -23,7 +23,7 @@ public:
      * \param chip The chip number (for RPI5 it's 2)
      * \param return >0 on success and -1 if an error has happened.
      **/
-    int start(int channel, int frequency, float duty_cycle = 0, int chip = 2) {
+    int start(int channel, int frequency, float duty_cycle = 0, int chip = 0) {
 	chippath = "/sys/class/pwm/pwmchip" + std::to_string(chip);
 	pwmpath = chippath + "/pwm" + std::to_string(channel);
 	std::string p = chippath+"/export";

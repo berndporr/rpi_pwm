@@ -29,8 +29,8 @@ that you see:
 which corresponds to the sysfs files:
 
 ```
-/sys/class/pwm/pwmchip2/pwm2: GPIO18 
-/sys/class/pwm/pwmchip2/pwm3: GPIO19
+/sys/class/pwm/pwmchip0/pwm2: GPIO18 
+/sys/class/pwm/pwmchip0/pwm3: GPIO19
 ```
 
 ## Compilation
