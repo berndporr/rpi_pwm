@@ -1,7 +1,6 @@
 # Raspberry PI 5 PWM C++ class
 
-This is a simple wrapper around the new PWM sysfs on the Raspberry PI running Debian bookworm.
-It has been tested on the Raspberry PI 5 and the documentation below is for it.
+This is a simple wrapper around the new PWM sysfs on the Raspberry PI running Debian trixie. It has been tested on the Raspberry PI 5 and the documentation below is for it but should also work for any other model.
 
 ## Setup
 
